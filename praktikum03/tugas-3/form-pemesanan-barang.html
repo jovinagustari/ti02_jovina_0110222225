@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body bgcolor="#E5E7E9">
+    <!-- <table width="100%" frame="box" bgcolor="silver">
+        <tr>
+            <td><img src="assets/image/arrow-left.png" width="20px">&nbsp;<img src="assets/image/arrow-right (1).png" width="20px"><img src="assets/image/cross-small (1).png" width="20px"><img src="assets/image/home.png" width="20px"></td>
+            <td><input type="url" size="100"></td>
+            <td><img src="assets/image/search.png" width="20px"></td>
+            <td><input type="text" size="20"></td>
+        </tr border="1px">
+    </table> -->
+    <center>
+        <br>
+        <table width="95%" bgcolor="#F8F9F9" frame="box">
+            <tr>
+                <td>&nbsp; Home &nbsp; |</td>
+                <td>Generate Link &nbsp; |</td>
+                <td>Transaction History &nbsp; |</td>
+                <td>Policy &nbsp; |</td>
+                <td>Logout</td>
+            </tr>
+        </table>
+        <br>
+        <table width="95%">
+            <tr>
+                <td rowspan="8">
+                    <img src="../assets/image/image.png" width="200px"><br><br>
+                    <button style="padding: 2px 13px; box-shadow: 4px 4px #212F3D;">Upload Picture</button>
+                </td>
+                <td><br><label for="title">Title Here</label><br></td>
+                <td><br> : <br></td>
+                <td width="40%"><br><input type="text" id="title" placeholder="MacBook Air $800"><br></td>
+            </tr>
+            <tr>
+                <td><label for="description">Description</label></td>
+                <td> : </td>
+                <td>
+                    <textarea name="description" id="description" cols="21" rows="5" 
+                    placeholder="Year : 2009
+                                Model : 
+                                Condition : Mint"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="number">Account Number</label></td>
+                <td> : </td>
+                <td><input type="number" id="number" size="number" placeholder="123-456-789-0"></td>
+            </tr>
+            <tr>
+                <td><label for="bank">Bank</label></td>
+                <td> : </td>
+                <td><select name="bank" id="bank">
+                        <option value="hsbc">HSBC</option>
+                        <option value="bca">BCA</option>
+                        <option value="mandiri">Mandiri</option>
+                        <option value="bni">BNI</option>
+                        <option value="bsi">BSI</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="name">Account Holder</label></td>
+                <td> : </td>
+                <td><input type="text" id="name" placeholder="Name Here"></td>
+            </tr>
+            <tr>
+                <td><label for="transaksi">Transaction</label></td>
+                <td> : </td>
+                <td><input type="number" id="transaksi"><br>
+                    <small>* if the transaction is for 3 person, choose 3 from the drop-down list</small><br>
+                    <input type="checkbox" id="sent-to-email">
+                    <label for="sent-to-email"> Sent to Email </label><br>
+                    <input type="checkbox" id="sent-to-phone">
+                    <label for="sent-to-phone"> Sent to Email </label>
+            </tr>
+            <tr>
+                <td><label for="phone">Send to Mobile Phone</label></td>
+                <td> : </td>
+                <td><input type="number" id="phone" placeholder="1234567890, 1234567891"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Send to Email</label></td>
+                <td> : </td>
+                <td><input type="email" id="email" placeholder="youremail01@gmail.com, youremail02@yahoo.com"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><br><br><center>
+                    <button size="40" style="background-color: green; color: white; padding: 5px 20px; box-shadow: 4px 4px #212F3D;">Generate Nabr Link</button>
+                </center><br></td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
