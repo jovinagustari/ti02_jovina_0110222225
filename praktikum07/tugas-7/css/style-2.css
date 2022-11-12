@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; /* Mengisi seluruh body, agar tidak ada jarak/margin disisi halaman*/
+}
+
+.outer-col,
+.inner-col,
+.inner-row-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.outer-row,
+.inner-row-2 {
+    display: flex;
+    flex-direction: row;
+    flex: 8;
+}
+
+.inner-col,
+.inner-row-2 {
+    flex: 6;
+}
+
+.inner-row-1 {
+    flex: 1;
+}
+
+.outer-row header {
+    height: 20vh;
+    margin: 10px 10px 5px 5px;
+    background: darkorange;
+}
+
+.inner-row-1 nav {
+    height: 20vh;
+    margin: 10px 5px 5px 10px;
+    background: gold;
+}
+
+.inner-row-1 aside {
+    height: 60vh;
+    margin: 5px 5px 5px 10px;
+    background: darkturquoise;
+}
+
+.inner-row-2 article {
+    flex: 6;
+    height: 60vh;
+    margin: 5px;
+    background: gray;
+}
+
+.inner-row-2 aside {
+    flex: 1;
+    height: 60vh;
+    margin: 5px 10px 5px 5px;
+    background: darkcyan;
+}
+
+footer {
+    height: 20vh;
+    margin: 5px 10px 10px 10px;
+    background: dodgerblue;
+}
+
+nav, header, aside,
+article, footer {
+    padding: 1em;
+    border: 1px solid black;
+}
