@@ -1,0 +1,35 @@
+/* Reset padding dan margin */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffe4c4;
+    padding: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+} 
+
+nav ul li a {
+    color: brown;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid brown;
+}

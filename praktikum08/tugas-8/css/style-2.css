@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: darkgrey;
+}
+
+main {
+    display: flex;
+    flex: 1; /* Menempati sisa ruang pada flex container body */
+    margin: 1em;
+}
+
+main > article {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: lightcoral;
+    margin-left: 1em;
+}
+
+main > aside {
+    flex: 0 0 20vw;
+    background: plum;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.img {
+    width: 32%;
+    height: 100%;
+    background-color: plum;
+    border: 1px solid black;
+}
+
+header {
+    margin: 1em 1em 0 1em;
+}
+
+footer {
+    margin: 0 1em 1em 1em;
+}
+
+header,
+footer {
+    background: palevioletred;
+    height: 10vh;
+}
+
+header,
+footer,
+article,
+aside {
+    padding: 1em;
+    text-align: center;
+    border: 1px solid black;
+}
