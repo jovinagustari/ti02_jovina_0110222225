@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Javascript 2</title>
+</head>
+<body>
+    <h2>Dollar to Rupiah</h2>
+    <form>
+        <label for="dollar">Dollar : </label><input type="text" id="dollar">
+        <br><br>
+        <label for="kurs">Kurs Rupiah : </label><input type="text" id="kurs">
+        <br><br>
+        <input type="button" value="Hitung" onclick="hitung_dollar()">
+        <br><br>
+        <label for="hasil">Hasil : </label><input type="text" id="hasil">
+    </form>
+
+    <h2>Rupiah to Dollar</h2>
+    <form>
+        <label for="rupiah">Rupiah : </label><input type="text" id="rupiah">
+        <br><br>
+        <input type="button" value="Hitung" onclick="hitung_rupiah()">
+        <br><br>
+        <label for="hasil2">Hasil : </label><input type="text" id="hasil2">
+    </form>
+
+    <script>
+        function hitung_dollar() {
+            let dollar = document.getElementById("dollar").value;
+            let kurs = document.getElementById("kurs").value;
+            let hasil = dollar * kurs;
+            document.getElementById("hasil").value = hasil;
+        }
+        function hitung_rupiah() {
+            let rupiah = document.getElementById("rupiah").value;
+            let hasil = rupiah * (1/14650);
+            document.getElementById("hasil2").value = "$" + hasil;
+        }
+    </script>
+</body>
+</html>

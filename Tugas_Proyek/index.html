@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Medika Maternity Clinic</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"
+        type="text/css" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(39, 38, 38);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#!" style="padding: 0 30px;"><img style="width: 60%;"
+                    src="assets/img/logo.png" alt="medika-logo"></a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#layanan">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fasilitas">Fasilitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jadwal">Jadwal &nbsp; Praktik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead" id="home">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="text-center text-white">
+                        <!-- Page heading-->
+                        <h1 class="mb-5">Klinik Bersalin Medika</h1>
+                        <h3>Memberikan Pelayanan Terbaik untuk Anda!</h3>
+                        <!-- Signup form-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form class="form-subscribe" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Email address input-->
+                            <div class="row" style="padding : 10px 0;">
+                                <div class="col"><button class="btn btn-primary btn-lg" type="submit"><a
+                                            href="#book"></a>Buat Janji</button></div>
+                                <div class="col"><button class="btn btn-primary btn-lg" id="layanan" type="submit"><a
+                                            href="#layanan"></a>Lainnya</button></div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    <p>To activate this form, sign up at</p>
+                                    <a class="text-white"
+                                        href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage">
+                                <div class="text-center text-danger mb-3">Error sending message!</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Icons Grid-->
+    <section class="features-icons bg-light text-center" id="layanan">
+        <div class="container">
+            <h3>Layanan</h3>
+            <div class="row" style="padding: 20px;">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex justify-content-center"><img
+                                src="assets/img/usg-icon.png" style="padding: 20px 0;" alt="icon usg"></div>
+                        <h3>Ultrasonography (USG)</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex justify-content-center"><img
+                                src="assets/img/maternity-icon.png" style="padding: 20px 0;" alt="icon maternity"></div>
+                        <h3>Persalinan Normal & Caesar(24 Jam)</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex justify-content-center"><img src="assets/img/kb-icon.png"
+                                style="padding: 20px 0;" alt="icon kb"></div>
+                        <h3>Program Keluarga Berencana (KB)</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex justify-content-center"><img
+                                src="assets/img/immunization-icon.png" style="padding: 20px 0;" alt="icon imunisasi">
+                        </div>
+                        <h3>Imunisasi Anak</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex justify-content-center"><img
+                                src="assets/img/lab-icon.png" style="padding: 20px 0;" alt="icon lab"></div>
+                        <h3>Laboratorium</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex justify-content-center"><img
+                                src="assets/img/anc-icon.png" style="padding: 20px 0;" alt=""></div>
+                        <h3>Pemeriksaan Kehamilan (Antenatal Care)</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Image Showcases-->
+    <section class="showcase" id="fasilitas" style="padding: 100px 0;">
+        <div class="container-fluid p-0">
+            <center>
+                <h3>Fasilitas Pelayanan</h3>
+            </center>
+            <div class="row g-0" style="padding: 50px 0 0 0;">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img"
+                    style="background-image: url('assets/img/hospital-emergency.jpg')"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>Instalasi Gawat Darurat (IGD)</h2>
+                    <p class="lead mb-0">Kami menyediakan Unit Gawat Darurat sebagai penanganan awal pasien, sesuai
+                        dengan tingkat kegawatannya. Petugas skrining akan memilah pasien dalam kelompok triase.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img"
+                    style="background-image: url('assets/img/hospital-room-1.jpg')"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2>Ruang Periksa</h2>
+                    <p class="lead mb-0">Kami menyediakan ruang periksa yang nyaman, sejuk, dan bersih. Untuk kenyamanan
+                        lebih baik.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img"
+                    style="background-image: url('assets/img/hospital-room-2.jpg')"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>Ruang Bersalin</h2>
+                    <p class="lead mb-0">Ruang bersalin dengan fasilitas memadai demi kenyamanan ibu dan bayi.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img"
+                    style="background-image: url('assets/img/hospital-baby-room.jpg')"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2>Ruang Perawatan Bayi</h2>
+                    <p class="lead mb-0">Ruang perawatan yang disediakan khusus untuk bayi, dengan fasilitas dan
+                        keamanan terjamin.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img"
+                    style="background-image: url('assets/img/hospital-room-3.jpg')"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>Ruang Perawatan Ibu</h2>
+                    <p class="lead mb-0">Tersedia ruang perawatan khusus untuk ibu pasca melahirkan, dengan fasilitas
+                        memadai, dan nyaman untuk perawatan terbaik. </p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img"
+                    style="background-image: url('assets/img/hospital-nicu.jpg')"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2>NICU (Neonatal Intensive Care Unit)</h2>
+                    <p style="padding: 10px 0 0 0;">Berikut penjelasan tentang NICU</p>
+                    <div class="container">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/IvTsJXBbJz0"
+                            title="Ibu Perlu Tahu Tentang NICU" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Doctors -->
+    <section class="testimonials text-center bg-light">
+        <div class="container">
+            <h2 class="mb-5">Dokter</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;"
+                            src="assets/img/person-3.jpg" alt="..." />
+                        <h5>dr. Indah Widiyana</h5>
+                        <small>Dokter Spesialis Obstetri dan Ginekologi</small>
+                        <p class="font-weight-light mb-0">Konsultan Onkologi Ginekologi</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;"
+                            src="assets/img/person-5.jpg" alt="..." />
+                        <h5>dr. Asma Liyana</h5>
+                        <small>Dokter Spesialis Obstetri dan Ginekologi</small>
+                        <p class="font-weight-light mb-0">Konsultan Fetomaternal</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;"
+                            src="assets/img/person-7.jpg" alt="..." />
+                        <h5>dr. Windy Rena</h5>
+                        <small>Dokter Spesialis Obstetri dan Ginekologi</small>
+                        <p class="font-weight-light mb-0">Konsultan Fertilitas-endokrinologi Reproduksi</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;"
+                            src="assets/img/person-2.jpg" alt="..." />
+                        <h5>dr. Azizah Maulida</h5>
+                        <small>Dokter Spesialis Obstetri dan Ginekologi</small>
+                        <p class="font-weight-light mb-0">Konsultan Onkologi Ginekologi</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;"
+                            src="assets/img/person-6.jpg" alt="..." />
+                        <h5>dr. Tini Darmawanti</h5>
+                        <small>Dokter Spesialis Obstetri dan Ginekologi</small>
+                        <p class="font-weight-light mb-0">Konsultan Uroginekologi dan Rekonstruksi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <article>
+        <section id="jadwal">
+            <div style="padding-bottom: 80px;">
+                <table class="table table-light table-bordered table-hover">
+                    <center>
+                        <h3 style="padding: 100px 0 10px 0;">Jadwal Dokter</h3>
+                    </center>
+                    <thead class="table-dark">
+                        <tr>
+                            <td>Hari</td>
+                            <td>Dokter</td>
+                            <td>Bidang Praktek</td>
+                            <td>Jam</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">Senin</td>
+                            <td>dr. Azizah Maulida</td>
+                            <td>Konsultan Onkologi Ginekologi</td>
+                            <td>08.00 - 10.00</td>
+                        </tr>
+                        <tr>
+                            <td>dr. Asma Liyana</td>
+                            <td>Konsultan Fetomaternal</td>
+                            <td>13.00 - 15.00</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Selasa</td>
+                            <td>dr. Tini Darmawanti</td>
+                            <td>Konsultan Uroginekologi dan Rekonstruksi</td>
+                            <td>08.00 - 10.00</td>
+                        </tr>
+                        <tr>
+                            <td>dr. Azizah Maulida</td>
+                            <td>Konsultan Onkologi Ginekologi</td>
+                            <td>15.00 - 17.00</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Rabu</td>
+                            <td>dr. Indah Widiyana</td>
+                            <td>Konsultan Onkologi Ginekologi</td>
+                            <td>08.00 - 12.00</td>
+                        </tr>
+                        <tr>
+                            <td>dr. Tini Darmawanti</td>
+                            <td>Konsultan Uroginekologi dan Rekonstruksi</td>
+                            <td>13.00 - 19.00</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Kamis</td>
+                            <td>dr. Windy Rena</td>
+                            <td>Konsultan Fertilitas-endokrinologi Reproduksi</td>
+                            <td>10.00 - 12.00</td>
+                        </tr>
+                        <tr>
+                            <td>dr. Indah Widiyana</td>
+                            <td>Konsultan Onkologi Ginekologi</td>
+                            <td>19.00 - 20.00</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Jumat</td>
+                            <td>dr. Asma Liyana</td>
+                            <td>Konsultan Fetomaternal</td>
+                            <td>08.00 - 12.00</td>
+                        </tr>
+                        <tr>
+                            <td>dr. Windy Rena</td>
+                            <td>Konsultan Fertilitas-endokrinologi Reproduksi</td>
+                            <td>13.00 - 17.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </article>
+    <article>
+        <section class="testimonials text-center bg-light">
+            <div class="container" style="display: flex; flex-direction: row; justify-content: center;">
+                <div class="row">
+                    <h2 class="mb-5">Ulasan Pasien</h2>
+                    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <center>
+                                <div class="carousel-item active">
+                                    <div class="card mb-3" style="max-width: 540px; max-height: 180px;">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img class="img-fluid rounded-start mb-3"
+                                                    src="assets/img/testimonials-1.jpg" alt="..." />
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Reina S.</h5>
+                                                    <p class="card-text">"Pelayanan baik dan ramah, fasilitas layanan
+                                                        terbaik!"</p>
+                                                    <p class="card-text"><small class="text-muted">Last updated 1 hours
+                                                            ago</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card mb-3" style="max-width: 540px; max-height: 180px;">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img class="img-fluid rounded-start mb-3"
+                                                    src="assets/img/testimonials-2.jpg" alt="..." />
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Andy K.</h5>
+                                                    <p class="card-text">"Fasilitas lengkap, pelayanan cepat tanggap"
+                                                    </p>
+                                                    <p class="card-text"><small class="text-muted">Last updated 3 hours
+                                                            ago</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card mb-3" style="max-width: 540px; max-height: 180px;">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img class="img-fluid rounded-start mb-3"
+                                                    src="assets/img/testimonials-3.jpg" alt="..." />
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Sarah W.</h5>
+                                                    <p class="card-text">"Pengobatan dan perawatan dilakukan dengan baik
+                                                        dan professional"</p>
+                                                    <p class="card-text"><small class="text-muted">Last updated 20 hours
+                                                            ago</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card mb-3" style="max-width: 540px; max-height: 180px;">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img class="img-fluid rounded-start mb-3"
+                                                    src="assets/img/testimonials-3.jpg" alt="..." />
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Winda E.</h5>
+                                                    <p class="card-text">"Pelayanannya sangat baik, staff dan dokter
+                                                        ramah, fasilitas juga sangat lengkap."</p>
+                                                    <p class="card-text"><small class="text-muted">Last updated 2 days
+                                                            ago</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card mb-3" style="max-width: 540px; max-height: 180px;">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img class="img-fluid rounded-start mb-3"
+                                                    src="assets/img/testimonials-2.jpg" alt="..." />
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Budi R.</h5>
+                                                    <p class="card-text">"Layanan Oke! kebersihan terjaga, dan perawatan
+                                                        sangat professional"</p>
+                                                    <p class="card-text"><small class="text-muted">Last updated 1 week
+                                                            ago</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </center>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <article>
+        <section id="book">
+            <div class="container" style="padding: 100px 0;">
+                <h2 class="mb-5 text-center">Buat Janji</h2>
+                <form class="row g-3" style="padding: 0 50px;">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label"><b>Email</b></label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="youremail@email.com">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="nama" class="form-label"><b>Nama</b></label>
+                        <input type="text" class="form-control" id="nama" placeholder="Nama Anda">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label"><b>Alamat</b></label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Jl. Main Street">
+                    </div>
+                    <div class="col-12">
+                        <label for="jadwal" class="form-label"><b>Hari</b></label>
+                        <input type="text" class="form-control" id="jadwal" placeholder="Senin">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="jam" class="form-label"><b>Jam Praktek</b></label>
+                        <select id="jam" class="form-select">
+                            <option selected>Pilih...</option>
+                            <option>08.00 - 10.00</option>
+                            <option>10.00 - 12.00</option>
+                            <option>13.00 - 15.00</option>
+                            <option>15.00 - 17.00</option>
+                            <option>19.00 - 20.00</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="dokter" class="form-label"><b>Dokter</b></label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Pilih...</option>
+                            <option>dr. Indah Widiyana</option>
+                            <option>dr. Asma Liyana</option>
+                            <option>dr. Windy Rena</option>
+                            <option>dr. Azizah Maulida</option>
+                            <option>dr. Tini Darmawanti</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </article>
+
+    <!-- Call to Action-->
+    <section class="call-to-action text-white" id="signup">
+        <div class="container position-relative" id="kontak">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <h2 class="mb-4 text-center">Kontak Kami</h2>
+                    <!-- Signup form-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- * * SB Forms Contact Form * *-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- This form is pre-integrated with SB Forms.-->
+                    <!-- To make this form functional, sign up at-->
+                    <!-- https://startbootstrap.com/solution/contact-forms-->
+                    <!-- to get an API token!-->
+                    <form class="row g-3" id="contactFormFooter" data-sb-form-api-token="API_TOKEN">
+                        <!-- Form Input-->
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                            <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email
+                                Address is required.</div>
+                            <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email
+                                Address Email is not valid.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="keterangan" class="form-label">Keterangan</label>
+                            <input type="text" class="form-control" id="keterangan">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                <p>To activate this form, sign up at</p>
+                                <a class="text-white"
+                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Error sending message!</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#!">About</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#!">Contact</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; Medika Klinik 2022. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item me-4">
+                            <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                        </li>
+                        <li class="list-inline-item me-4">
+                            <a href="#!"><i class="bi-twitter fs-3"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!"><i class="bi-instagram fs-3"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
