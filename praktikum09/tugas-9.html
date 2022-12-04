@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 9 | Javascript</title>
+</head>
+<body>
+    <h3>Penjumlahan 2 Bilangan | Menggunakan Event OnChange</h3>
+    <form action="">
+        <input type="text" id="num1" onchange="operasi()">
+        <h1> + </h1>
+        <input type="text" id="num2" onchange="operasi()">
+        <h1> = </h1>
+        <input type="number" id="result">&nbsp;
+        <small>*Tekan Enter untuk melihat hasil</small>
+    </form>
+
+    <script>
+        function operasi() {
+        let num1 = document.getElementById("num1").value
+        let num2 = document.getElementById("num2").value
+        let result = parseInt(num1) + parseInt(num2)
+        document.getElementById("result"). value = result
+        }
+    </script>
+</body>
+</html>
