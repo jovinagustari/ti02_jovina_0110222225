@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 10 | Image Picker</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div>
+        <label for="img_picker">Pilih Gambar : </label>
+        <select id="img_picker">
+            <option hidden>-- Pilih --</option>
+            <option value="elang" id="image01">Elang</option>
+            <option value="burung" id="image02">Burung</option>
+            <option value="ayam" id="image03">Ayam</option>
+            <option value="ikan" id="image05">Ikan</option>
+            <option value="gorila" id="image06">Gorila</option>
+            <option value="hamster" id="image07">Hamster</option>
+            <option value="singa" id="image07">Singa</option>
+        </select>
+        <br><br>
+    </div>
+    <button onclick="getOption()"> View Image </button>
+        <br><br>
+    <div id="output"></div>
+
+    <script>
+    function getOption() {
+        selectElement = document.querySelectorAll('#img_picker').value;
+        if (selectElement == 'elang'){
+        document.getElementById('output').innerHTML = '<img src="../images/elang.jpg" style="width:300px">';
+        alert("Ini gambar Elang")
+        }
+        else if (selectElement == 'burung'){
+        document.getElementById('output').innerHTML = '<img src="../images/bird.jpg" style="width:300px">';
+        alert("Ini gambar Burung")
+        }
+        else if (selectElement == 'ayam'){
+        document.getElementById('output').innerHTML = '<img src="../images/chick.jpg" style="width:300px">';
+        alert("Ini gambar Ayam")
+        }
+        else if (selectElement == 'ikan'){
+        document.getElementById('output').innerHTML = '<img src="../images/fish1.jpg" style="width:300px">';
+        alert("Ini gambar Ikan")
+        }
+        else if (selectElement == 'gorila'){
+        document.getElementById('output').innerHTML = '<img src="../images/gorila.jpg" style="width:300px">';
+        alert("Ini gambar Gorila")
+        }
+        else if (selectElement == 'hamster'){
+        document.getElementById('output').innerHTML = '<img src="../images/hamster.jpg" style="width:300px">';
+        alert("Ini gambar Hamster")
+        }
+        else if (selectElement == 'singa'){
+        document.getElementById('output').innerHTML = '<img src="../images/singa.jpg" style="width:300px">';
+        alert("Ini gambar Singa")
+        }
+    }
+    </script>
+</body>
+</html>
+
+
+
+
+ <!-- // let images = document.getElementById('img_picker');
+
+        // images.addEventListener('click', function(){
+        //     let form = document.getElementById('pilih_gambar');
+        //     let pilih = document.getElementById('img_picker').value;
+        //     console.log('click')
+        //     if (pilih == 'Elang'){
+        //         console.log('elang')
+        //     }
+        // }) -->
